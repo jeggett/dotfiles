@@ -1,0 +1,24 @@
+[user]
+	name = Alexander Zaytsev
+	email = jeggettx@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+[core]
+	editor = nvim
+	autocrlf = false
+	longpaths = true
+	excludesFile = C:/Users/Jeggett/.config/git/ignore
+	quotepath = false
+	precomposeUnicode = true
+[push]
+	autoSetupRemote = true
+[credential "https://git.agro-it.team"]
+	provider = generic
+[pull]
+	rebase = true
+[safe]
+	directory = %(prefix)///wsl.localhost/Ubuntu-20.04/home/jeggett/prj/pole/documents
